@@ -1,0 +1,19 @@
+{
+  "name": "lghh",
+  "version": "1.0.0",
+  "description": "SMU Coding Camp - Group Project (Lower Greenville Happy Hour)",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmoore4181/lghhOpenShift.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmoore4181/lghhOpenShift"
+  },
+  "homepage": "https://github.com/pmoore4181/lghhOpenShift/mainpage.html",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
