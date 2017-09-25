@@ -1,13 +1,6 @@
 @charset "utf-8";
 
 /* CSS Document */
-/*reset style*/
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-}
 
 html, body {
     background-color: rgb(247, 247, 247);
@@ -15,20 +8,17 @@ html, body {
 
 .day {
     cursor: pointer;
-
 }
 
 #dayHeader {
     font-size: 40px;
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 15%;
 }
 
 #barHeading {
-    margin-top: 8%;
-    margin-bottom: -350px;
-
+    margin-top: 200px;
+    margin-bottom: -150px;
 }
 
 #hr {
@@ -46,8 +36,7 @@ html, body {
 }
 
 #resultRow {
-/*    padding-bottom: 100px;*/
-    margin-top: 15%;
+    padding-bottom: 100px;
 }
 
 .barPictures:hover {
@@ -71,10 +60,10 @@ html, body {
     float: left;
 }
 
-#videoBanner {
+video {
     position: absolute;
     top: 10%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -50%);
     min-width: 182%;
     min-height: 100%;
     width: auto;
@@ -106,43 +95,27 @@ h1 {
     margin-top: 10px;
     margin-left: 200px;
     width: 1024px;
-
 }
 
 #logo {
-/*    position: relative;
+    position: relative;
     top: 60px;
     text-align: center;
     margin-left: 270px;
-    max-width: 940px;*/
-    position: relative;
-    top: 10px;
-    text-align: center;
-    opacity:1;
+    max-width: 940px;
 }
 
 #week {
-    position: relative;
-    top: 30px;
-    text-align: center;
+    margin-left: 620px;
+    margin-top: 50px;
 }
-
-.dropdown-menu {
-  left: 50%;
-  right: auto;
-  text-align: center;
-  transform: translate(-50%, 0);
-}
-
 
 #menu1 {
     padding-left: 50px;
     padding-right: 50px;
     background-color: rgb(178, 178, 176);
     border: none;
-    opacity: 3;
-
-
+    opacity: .75;
 }
 
 .image {
@@ -150,47 +123,35 @@ h1 {
 }
 
 #top1 {
-
     float: left;
     margin: 0;
     margin-top: 20px;
     overflow: none;
     padding: 0;
-    margin: auto;
-    display: table
 }
 
 #top2 {
-
     float: left;
     margin: 0;
     margin-top: 20px;
     overflow: none;
     padding: 0;
-    margin: auto;
-    display: table
 }
 
 #top3 {
-
     float: left;
     margin: 0;
     margin-top: 20px;
     overflow: none;
     padding: 0;
-    margin: auto;
-    display: table
 }
 
 #top4 {
-
     float: left;
     margin: 0;
     margin-top: 20px;
     overflow: none;
     padding: 0;
-    margin: auto;
-    display: table
 }
 
 #middle1 {
@@ -255,30 +216,24 @@ h1 {
     margin-top: 0;
     overflow: none;
     padding: 0;
-    margin-bottom: 10%;
 }
 
 #map {
-    height: 400px;
+    height: 700px;
     width: 700px;
     margin: 0;
     padding: 0;
-    pointer-events: none;
-    margin-bottom: 10%;
-}
 }
 
 h2 {
     font-family: 'Playfair Display', serif;
 }
 
-
 #footer {
     text-align: center;
     background-color: rgb(154, 156, 158);
-    height: 40px;
+    height: 50px;
     padding-top: 10px;
     margin-top: 20px;
-    opacity:0.50;
 }
 
